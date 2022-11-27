@@ -14,40 +14,17 @@ A basic voting dapp (decentralized application) written in Solidity & React.
 
 ![Screenshot](./Screenshot.png)
 
-After have followed this [tutorial](https://www.youtube.com/watch?v=3681ZYbDSSk) on Youtube from [Dapp University](https://www.youtube.com/channel/UCY0xL8V6NzzFcwzHCgB8orQ), I built this voting app from scratch with React as the frontend.
 
-## Get started
 
-Requires
+
+
+## Requires
 - NodeJS
 - npm
 - git
 - truffle (dapp EVM framework)
 - Ganache (local blockchain)
 
-Download the repo:
-```sh
-git clone https://github.com/juliencrn/voting-dapp
-cd voting-dapp
-```
 
-Then start the **Ganache** blockchain. I use the default macOS client on the default port (`7545`), but you can also use `ganache-cli` and change port in the `truffle-config.js` file.
-
-Launch Truffle in console mode, and deploy contract:
-```sh
-truffle console
-
-# type the following inside the truffle console
-# truffle(development)>
-> test
-> migrate --reset
-```
-
-Now, start the front-end application: 
-```sh
-cd client
-npm install
-npm start
-```
 
 Open http://localhost:3000, connect your MetaMask wallet, and vote. 
